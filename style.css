@@ -102,7 +102,6 @@ section{
 	font-size: 7.5rem;
 	color:#F3F3F3;
 	font-family: 'Oswald', sans-serif;
-	letter-spacing: ;
 	font-weight: bold;
 	user-select: none;
 	filter: drop-shadow(5px 5px rgba(255,69,0, 0.5));
@@ -122,7 +121,7 @@ section{
 .social-links a{
 	font-size:2.6rem;
 	color: #FFFF;
-	text-align:!important center;
+	text-align:center !important;
 }
 .button-same{
 	padding: 10px 12px;
@@ -168,9 +167,6 @@ section{
 	left:50%;
 	transform: translate(-50%);
 	border-radius:5px;
-}
-.services-container{
-
 }
 .services-content{
 	display:flex;
@@ -273,8 +269,7 @@ section{
 .about-text{
 	flex-basis: 50%;
 }
-.about-us .about-cover > .logo-img,
-{
+.about-us .about-cover > .logo-img{
 	display: flex;
 	align-items: center;
 	justify-content: center;
